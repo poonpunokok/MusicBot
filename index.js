@@ -12,7 +12,7 @@ function startExpressServer() {
 
     app.get('/', (req, res) => {
       res.json({
-        status: 'online',
+        status: 'streaming',
         bot: client.user ? client.user.tag : 'Starting...',
         servers: client.guilds.cache ? client.guilds.cache.size : 0,
         uptime: process.uptime(),
