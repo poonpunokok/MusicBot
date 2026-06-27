@@ -1,13 +1,14 @@
 // config.js
 module.exports = {
   token: process.env.DISCORD_TOKEN,
-  prefix: "!",
+  prefix: "l!",
   enablePrefix: true,
   supportServer: "https://discord.gg/9MVAPpfs8D",
 
   activity: {
     name: "/help",
-    type: "LISTENING" // PLAYING, LISTENING, WATCHING, STREAMING, COMPETING
+    type: "WATCHING" // PLAYING, LISTENING, WATCHING, STREAMING, COMPETING
+    url: "https://www.twitch.tv/poonpun2524"
   },
 
   express: {
