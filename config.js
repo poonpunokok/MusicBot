@@ -6,10 +6,10 @@ module.exports = {
   supportServer: "https://discord.gg/9MVAPpfs8D",
 
   activity: {
-    name: "/help",
-    type: "WATCHING" // PLAYING, LISTENING, WATCHING, STREAMING, COMPETING
-    url: "https://www.twitch.tv/poonpun2524"
-  },
+  name: "/help",
+  type: "STREAMING", // PLAYING, LISTENING, WATCHING, STREAMING, COMPETING
+  url: "https://www.twitch.tv/poonpun2524"
+},
 
   express: {
     enabled: true,
