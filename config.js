@@ -3,7 +3,7 @@ module.exports = {
   token: process.env.DISCORD_TOKEN,
   prefix: "l!",
   enablePrefix: true,
-  supportServer: "https://discord.gg/9MVAPpfs8D",
+  supportServer: "https://discord.gg/4nwv4aqQqr",
 
   activity: {
   name: "/help",
